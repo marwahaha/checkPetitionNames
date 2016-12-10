@@ -37,7 +37,7 @@ cat $fr |awk -F"\t" '{print $1"\t"$2"\t"$5"\t"$7"\t"$8"\t"$12}' > only.tsv
 
 Now only.tsv is tab separated and has just the fields I want.
 
-*. make a file of the addresses you see on the petition sheet. Here is
+* make a file of the addresses you see on the petition sheet. Here is
 an example
 
 ```
@@ -58,7 +58,7 @@ an argument.
 
 python check.py test-sheet.tsv
 
-*. The output looks like
+* The output looks like
 
 ```
 macbook: $ python check.py test-sheet.tsv
@@ -82,5 +82,5 @@ names at the reported addresses.  And you can do this in the order
 that the signatures and addresses are reported on the sheet, which
 should make the job much easier.
 
-*. We can cut and paste out the names who signed if we want to contact
+* We can cut and paste out the names who signed if we want to contact
 them again.
