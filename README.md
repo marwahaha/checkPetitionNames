@@ -49,10 +49,10 @@ ADD	DIR	STR	CITY
 
 It is also tab separated and uses exactly those headers.
 
-* 4.1 Install python, and the library pandas. You probably have python
+* Install python, and the library pandas. You probably have python
 already installed.  to install pandas. The program uses python 2.7
 
-* 4.2 Run the python program check.py which assumes the existence of
+* Run the python program check.py which assumes the existence of
 only.tsv in the current directory. It takes the address list file as
 an argument.
 
@@ -77,7 +77,7 @@ STONE, CALIXTA
 ...
 ```
 
-*. Now you can go down the list of signatures and try to match up with
+* Now you can go down the list of signatures and try to match up with
 names at the reported addresses.  And you can do this in the order
 that the signatures and addresses are reported on the sheet, which
 should make the job much easier.
