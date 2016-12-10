@@ -1,9 +1,9 @@
 import pandas as pd
 import sys
-# fn = sys.argv[1] # "test-sheet.tsv"
-fn = "test-sheet-1.tsv"
-regfile = "/Users/frank/model-209-election/RegisteredList.csv"
-regfile =  "only.tsv"
+
+fn = sys.argv[1] # "test-sheet.tsv"
+
+regfile =  "only.tsv" # the abbreviated reg file
 
 regdata = pd.read_csv(regfile, delimiter="\t", dtype={'ADDR_NUM': object,
                                                       'ADDR_DIR': object,})
