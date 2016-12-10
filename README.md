@@ -30,18 +30,22 @@ street name and city.  So I preprocess the voter file to strip out
 only those fields. Originally I had saved the voter file as tab
 separated.
 
+```
 fr=RegisteredList.csv
 cat $fr |awk -F"\t" '{print $1"\t"$2"\t"$5"\t"$7"\t"$8"\t"$12}' > only.tsv
+```
 
 Now only.tsv is tab separated and has just the fields I want.
 
 3. make a file of the addresses you see on the petition sheet. Here is
 an example
 
+```
 ADD	DIR	STR	CITY
 123	N	35TH	NEWTON
 456	E	MAIN	ELM PARK
 ...
+```
 
 It is also tab separated and uses exactly those headers.
 
@@ -56,6 +60,7 @@ python check.py test-sheet.tsv
 
 5. The output looks like
 
+```
 macbook: $ python check.py test-sheet.tsv
 123 N 35TH NEWTON
 JONES, DANIEL
@@ -70,7 +75,7 @@ WOOD, JOSE P
 STONE, CALIXTA
 ************
 ...
-
+```
 
 6. Now you can go down the list of signatures and try to match up with
 names at the reported addresses.  And you can do this in the order
