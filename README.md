@@ -13,7 +13,7 @@ files discussed
 3. check.py       -- python source that reads these and prints out names
                      associated with each address. 
 
-*. You need a voter file of registerd voters. For Proviso HSD 209 that
+* You need a voter file of registerd voters. For Proviso HSD 209 that
 file is about 69752 lines long, and has about 25 columns.
 
 for example the file I used had column headers
@@ -25,7 +25,7 @@ SUFFIX SUID
 
 (noticed I addes some fields -- lower case ones)
 
-*. I only want the CERTNUM, name, address street number, direction,
+* I only want the CERTNUM, name, address street number, direction,
 street name and city.  So I preprocess the voter file to strip out
 only those fields. Originally I had saved the voter file as tab
 separated.
