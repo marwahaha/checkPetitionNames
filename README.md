@@ -7,9 +7,10 @@ up addresses by hand is also cumbersome. In our case there are over
 65,000 registered voters, and up to 250 signatures.
 
 files discussed
-a. only.tsv       -- tab separated abreviated voter registration file
-b. test-sheet.tsv -- tab separated file of addresses
-c. check.py       -- python source that reads these and prints out names
+
+1. only.tsv       -- tab separated abreviated voter registration file
+2. test-sheet.tsv -- tab separated file of addresses
+3. check.py       -- python source that reads these and prints out names
                      associated with each address. 
 
 1. You need a voter file of registerd voters. For Proviso HSD 209 that
