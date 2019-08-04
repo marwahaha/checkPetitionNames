@@ -8,7 +8,7 @@ up addresses by hand is also cumbersome. In our case there are over
 
 files discussed
 
-1. only.tsv       -- tab separated abreviated voter registration file
+1. only.tsv       -- tab separated abbreviated voter registration file
 2. test-sheet.tsv -- tab separated file of addresses
 3. check.py       -- python source that reads these and prints out names
                      associated with each address. 
